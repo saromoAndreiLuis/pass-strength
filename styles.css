@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.strength-meter {
+    margin-top: 20px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+#strengthBar {
+    width: 200px;
+    height: 20px;
+}
+
+#strengthBar::-webkit-progress-value {
+    background-color: #6bcf6a; /* Green color for progress bar */
+}
